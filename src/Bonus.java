@@ -33,7 +33,7 @@ public class Bonus {
 
             }
         }
-        System.out.println(feedback.toString());
+        System.out.println(feedback);
     }
 
     public static HashSet<Integer> randomnumbergenerator() {
@@ -48,12 +48,12 @@ public class Bonus {
 
 
     public static String setToStringConverter(HashSet<Integer> secretnumber) {
-        StringBuilder stringnumber = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
         for (Integer element : secretnumber) {
-            stringnumber.append(element.toString());
+            stringBuilder.append(element.toString());
         }
 
-        return stringnumber.toString();
+        return stringBuilder.toString();
     }
 
 
