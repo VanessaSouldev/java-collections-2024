@@ -46,7 +46,6 @@ public class Bonus {
         return secretnumber;
     }
 
-
     public static String setToStringConverter(HashSet<Integer> secretnumber) {
         StringBuilder stringBuilder = new StringBuilder();
         for (Integer element : secretnumber) {
