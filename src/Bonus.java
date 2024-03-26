@@ -56,5 +56,4 @@ public class Bonus {
         return stringBuilder.toString();
     }
 
-
 }
